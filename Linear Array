@@ -1,18 +1,16 @@
 
-def search(dataArray, target):
-      if dataArray=cars:
-        index(target)
-    elif dataArray=planes:
-        index(target)
-    else:
-        return -1
-
-
-
-
-
-
 
 cars = ["Ford", "Mustang", "Mercedes", "BMW", "Porsche", "Koenigsegg"]
 
 planes = ["F-15","Su-27"]
+
+
+
+def search(dataArray, target):
+    if dataArray==cars:
+        cars.index(target)
+    elif dataArray==planes:
+        planes.index(target)
+    else:
+        return -1
+        
