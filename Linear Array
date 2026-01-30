@@ -2,15 +2,23 @@
 
 cars = ["Ford", "Mustang", "Mercedes", "BMW", "Porsche", "Koenigsegg"]
 
-planes = ["F-15","Su-27"]
+planes = ["F-15","Su-27","F-22","Eurofighter typhoon","B-22","F-4 phantom"]
 
 
 
 def search(dataArray, target):
-    if dataArray==cars:
-        cars.index(target)
-    elif dataArray==planes:
-        planes.index(target)
+    
+    if dataArray=="cars" or "car":
+        return cars[target]
+    elif dataArray=="planes" or "plane":
+        return planes[target]
     else:
         return -1
         
+
+
+
+dataArray=input("choose data array: ")
+target=int(input("choose index: "))
+
+print(search(dataArray,target))
