@@ -1,5 +1,11 @@
 
-def search(dataArray, target)
+def search(dataArray, target):
+      if dataArray=cars:
+        index(target)
+    elif dataArray=planes:
+        index(target)
+    else:
+        return -1
 
 
 
