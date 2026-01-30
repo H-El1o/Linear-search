@@ -1,4 +1,12 @@
 
+def search(dataArray, target)
+
+
+
+
+
+
+
 cars = ["Ford", "Mustang", "Mercedes", "BMW", "Porsche", "Koenigsegg"]
 
 planes = ["F-15","Su-27"]
